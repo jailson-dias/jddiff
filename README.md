@@ -13,12 +13,13 @@ With jddiff you will to be able to compare two folders and get the difference be
 
 ### Cloning the repository
 1. Clone or download this repository to your computer
-- To do this you should use this command ```git clone https://github.com/jailson-dias/jddiff```
+- To clone the repository you should use this command ```git clone https://github.com/jailson-dias/jddiff```
+- To Download click on Download zip in the project page on Github
 2. Add this folder to you PATH enviroment variable
 - To do this open the file .bashrc on Linux or .bash_profile on Mac OS and put this line on end of file ```export PATH="$PATH:<path_to_installation_folder>"```
 
 ### Installing on /usr/local/bin folder
 1. Open the terminal: ```Ctrl+Alt+T```
-2. Download the jddiff file and put on the /usr/local/bin folder: ```sudo curl https://github.com/jailson-dias/jddiff/blob/master/jddiff```
+2. Download the jddiff file and put on the /usr/local/bin folder: ```sudo curl -o /usr/local/bin/jddiff https://raw.githubusercontent.com/jailson-dias/jddiff/master/jddiff```
 3. Gives permission to execute: ```sudo chmod +x /usr/local/bin/jddiff```
 
